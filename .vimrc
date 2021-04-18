@@ -25,6 +25,8 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 "状态/标签栏
 Plugin 'vim-airline/vim-airline'
+"HTML/css  html:5 ctrl+y,
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 filetype plugin indent on

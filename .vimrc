@@ -40,6 +40,8 @@ let g:NERDTreeHidden=0     "不显示隐藏文件
 "补全版本
 let g:snipMate = { 'snippet_version' : 0 }
 
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
 "配色
 colo monokai
 
